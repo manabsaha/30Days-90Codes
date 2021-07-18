@@ -1,5 +1,4 @@
-// You are given an array arr and length n.
-// The task is to complete the insert() function which is used to implement Insertion Sort.
+//Given an unsorted array of size N, use selection sort to sort arr[] in increasing order.
 
 class Solution
 {
