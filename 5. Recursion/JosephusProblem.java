@@ -14,7 +14,7 @@ Given the number of friends, n, and an integer k, return the winner of the game.
 public class Main{
 	public static void main(String[] args){
 		Solution obj = new Solution();
-		System.out.println(safePos(5,3));
+		System.out.println(obj.safePos(5,3));
 	}
 }
 
