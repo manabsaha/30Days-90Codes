@@ -1,3 +1,7 @@
+/* Given an undirected graph, print all connected components line by line. 
+Approach: Finding connected components for an undirected graph is an easier task. We simple need to do either BFS or DFS starting 
+from every unvisited vertex, and we get all strongly connected components. */
+
 import java.util.*;
 
 class Edge{
