@@ -41,12 +41,11 @@ public class Graph{
 		
 		//solution
 		Solution obj = new Solution();
-		int src = 0;
 		boolean[] visited = new boolean[graph.length];
 		Stack<Integer> st = new Stack<>();
 		for(int i=0;i<vertices;i++){
 			if(visited[i]==false){
-				obj.topologicalSort(graph,src,visited,st);
+				obj.topologicalSort(graph,i,visited,st);
 			}
 		}
 		while(!st.isEmpty()){
